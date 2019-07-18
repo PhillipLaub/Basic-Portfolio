@@ -1,8 +1,13 @@
 h1 {
-    color:blue;
+    color:white;
     float:left;
 
 }
+
+a {
+    color:#777777;
+}
+
 #links {
     float: right;
 
@@ -14,7 +19,7 @@ body {
 
 p {
     font-size: 20px;
-    color: brown;
+    color: #777777;
     float: right;
 
 }
@@ -22,7 +27,7 @@ p {
 hr {
     height: 2px;
     background-color:black;
-    opacity: 50%;
+    opacity: 0.50;
 }
 
 .padding {
@@ -30,6 +35,7 @@ hr {
     padding-right: 80px;
     padding-bottom: 50px;
     padding-left: 80px;
+
 }
 
 .headfont {
@@ -38,11 +44,16 @@ hr {
 
 #myname {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: aquamarine;
+    background-color: #4aaaa5;
 
 }
 
 .header {
     background-color: white;
 
+}
+
+.boxed {
+    border: 1px solid black;
+    background-color: white;
 }
