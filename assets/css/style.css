@@ -7,3 +7,27 @@ h1 {
     float: right;
 
 }
+body {
+    background-image: url("https://cdn.hipwallpaper.com/i/78/2/fhM1Hb.jpg");
+    background-color: #cccccc;
+}
+
+p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    float: right;
+
+}
+
+hr {
+    height: 5px;
+    background-color:black;
+}
+
+.padding {
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
