@@ -9,10 +9,23 @@ h2 {
     color: #4aaaa5;
 }
 
-h3 {
-    padding-right:100px;
+
+#navigation li
+{
+    list-style-type: none;
+    display: inline;
     margin: 0;
+    padding: 0;
+    font-size:18px;
+    float: right;
+    opacity: 0.70;
+    
 }
+
+ul {
+    padding-right: 100px;
+}
+
 
 a {
     color:#777777;
@@ -100,3 +113,4 @@ img {
     padding-right: 30px;
     padding-left: 30px;
 }
+
