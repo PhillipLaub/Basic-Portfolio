@@ -9,6 +9,11 @@ h2 {
     color: #4aaaa5;
 }
 
+h3 {
+    padding-right:100px;
+    margin: 0;
+}
+
 a {
     color:#777777;
     text-decoration:none;
@@ -57,11 +62,15 @@ section {
 .headfont {
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding-left: 30px;
+
 }
 
 #myname {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
+    float: center;
+    padding-left:20px;
+    padding-right:20px;
 
 }
 
@@ -82,6 +91,8 @@ section {
     background-color: #ffffff;
     width:800px;
     height: 500px;
+    padding-left:30px;
+    padding-right:30px;
 }
 
 img {
