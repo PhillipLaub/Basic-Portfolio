@@ -130,6 +130,16 @@ section {
     position: relative;
 }
 
+.boxed2 {
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    width:800px;
+    height: 750px;
+    padding-left:30px;
+    padding-right:30px;
+    position: relative;
+}
+
 #headshot {
     float: left;
     padding-right: 30px;
@@ -192,7 +202,7 @@ section {
     border: 1px solid black;
     margin: 10px;
     position: absolute;
-    top:490px;
+    top:500px;
     left:20px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
@@ -201,13 +211,14 @@ section {
 .layer {
     background:#4aaaa5;
     width:70%;
-    top: 65%;
+    top: 60%;
     position: relative;
     line-height:260%;
     z-index:2;
     color: white;
     text-decoration: none;
     position: absolute;
+    text-align: center;
 }
 
 .image {
