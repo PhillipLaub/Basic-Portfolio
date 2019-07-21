@@ -48,7 +48,7 @@ ul {
 }
 
 
-a {
+.links {
     color:#777777;
     text-decoration:none;
     float: right;
@@ -129,84 +129,87 @@ section {
     padding-right:30px;
 }
 
-img {
+#headshot {
     float: left;
     padding-right: 30px;
     padding-left: 30px;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    width: 50%;
-    float: left;
-  }
-  
-  .column {
-    flex: 50%;
-    padding: 0 4px;
 
-    
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    border: 1px solid #777777;
-    padding: 10px;
-
-  }
-
-  
-
-  .label1 {
+.box1 {
+    width:200px;
+    height:180px;
+    border: 1px solid black;
+    margin:10px;
     position: absolute;
-    z-index:5;
+    top:10px;
+    left:10px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
-    color: white;
-    text-align:center;
-    width:90px;
-    left:30%;
-    top:50%;
-  }
-  .label2 {
+}
+
+.box2 {
+    width:200px;
+    height:180px;
+    border: 1px solid black;
+    margin: 10px;
     position: absolute;
-    top: 50%;
-    right: 53%;
-    transform: translate(-50%, -50%);
-    z-index:5;
+    top: 10px;
+    right: 450px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
-    color: white;
-    content: "label";
-    text-align:center;
-    width:150px;
-  }
-  .label3 {
+
+}
+
+.box3 {
+    width:200px;
+    height:180px;
+    border: 1px solid black;
+    margin: 10px;
     position: absolute;
-    bottom: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index:5;
+    top: 250px;
+    left: 10px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
-    color: white;
-    content: "label";
-    text-align:center;
-    width:150px;
-  }
-    .label4 {
+}
+
+.box4 {
+    width:200px;
+    height:180px;
+    border: 1px solid black;
+    margin: 10px;
     position: absolute;
-    bottom: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index:5;
+    top:250px;
+    right:450px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
-    color: white;
-    content: "label";
-    text-align:center;
-    width:150px;
-  }
+}
+
+.box5 {
+    width:200px;
+    height:180px;
+    border: 1px solid black;
+    margin: 10px;
+    position: absolute;
+    top:490px;
+    left:10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+}
+
+.layer {
+    background:#4aaaa5;
+    width:100%;
+    top: 65%;
+    position: relative;
+    line-height:260%;
+    z-index:2;
+    color:white;
+    text-decoration: none;
+    position: absolute;
+}
+
+.image {
+    width:200px;
+    height:180px;
+}
