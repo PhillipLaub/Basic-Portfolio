@@ -62,7 +62,9 @@ body {
     width:960px;
     height:960px;
     margin: 0;
-    
+    min-height:100%; 
+    position:relative; 
+    padding-bottom:[footer-height] 
 }
 
 p {
@@ -85,10 +87,8 @@ section {
     
     padding-top: 20px;
     padding-right: 150px;
-    padding-bottom: 50px;
     padding-left: 150px;
     width: 960px;
-    height:960px;
 
 }
 
@@ -225,3 +225,33 @@ section {
     width:200px;
     height:180px;
 }
+
+
+html {
+    height: 100%;
+    margin:0;
+}
+
+footer {
+    height:142px;
+    width:1194px;
+    background: #777777;
+    text-align: center;
+    margin-bottom: -142px;
+    color: white;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+  }
+  .footer,
+  .push {
+    height: 50px;
+  }
+
+  #foottop {
+      width:1194px;
+      height:7px;
+      background: #4aaaa5;
+  }
