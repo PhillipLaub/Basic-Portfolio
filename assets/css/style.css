@@ -243,11 +243,11 @@ footer {
 
 .wrapper {
     min-height: 100%;
-    margin-bottom: -50px;
+    margin-bottom: -60px;
   }
   .footer,
   .push {
-    height: 50px;
+    height: 60px;
   }
 
   #foottop {
