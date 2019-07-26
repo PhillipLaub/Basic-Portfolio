@@ -184,3 +184,25 @@ input {
 textarea {
     width:100%;
 }
+
+#paragraph {
+    font-size: 18px;
+    color: #777777;
+    padding-right:30px;
+    padding-left: 30px;
+
+}
+
+#paragraph {
+    font-size: 18px;
+    color: #777777;
+    padding-right:30px;
+    padding-left: 30px;
+    line-height:180%;
+
+}
+
+#headshot {
+    float: left;
+    padding-right: 30px;
+}
