@@ -203,3 +203,12 @@ a:focus {
     color:pink;}
 a:active {
     color:black;}
+
+#button:hover {
+    opacity: 0.75;
+    
+}
+
+.boxy:hover {
+    opacity: 0.75;
+}
