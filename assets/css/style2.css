@@ -35,8 +35,7 @@ section {
 
 }
 
-.boxes {
-}
+
 
 .boxy {
     width: 300px;
@@ -92,7 +91,6 @@ hr {
     padding-left: 10px;
     padding-right:10px;
     font-size:18px;
-    float: right;
     opacity: 0.70;
     text-decoration:none;
     color:#777777;
@@ -190,14 +188,6 @@ textarea {
     color: #777777;
     padding-right:30px;
     padding-left: 30px;
-
-}
-
-#paragraph {
-    font-size: 18px;
-    color: #777777;
-    padding-right:30px;
-    padding-left: 30px;
     line-height:180%;
 
 }
@@ -206,3 +196,10 @@ textarea {
     float: left;
     padding-right: 30px;
 }
+
+a:hover {
+    color:#4aaaa5;}
+a:focus {
+    color:pink;}
+a:active {
+    color:black;}
