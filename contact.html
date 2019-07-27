@@ -1,69 +1,78 @@
-<!---
-
-    The content for the index.html should be unique to you.
-
-
-
-Write a paragraph or two about yourself. Make it fun, show your personality!
-The main logo where it says "Your Name" should say your name. This may make the logo section smaller or wider depending on how long your name is—that is fine and expected.
-Add, commit, and push your code to GitHub often, especially when you complete a page.
-
--->
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
     <title>Phil Laub</title>
-    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style2.css">
+    <meta charset="UTF-8">
 </head>
 
 <body>
-    <header class="header">
-        <h1 id="myname">Phil Laub</h1>
-        <div id="navigation">
-            <ul>
-                <li><a class="links" href="./contact.html">Contact</a></li>
+
+    <header>
+        <div class="insideheader">
+            <h1>Phil Laub</h1>
+            <br>
+            <ul class="links navigation">
+                <li><a class="hyper hvr-pulse" href="./contact2.html">Contact</a></li>
                 <li> | </li>
-                <li><a class="links" href="./portfolio.html">Portfolio</a></li>
+                <li><a class="hyper hvr-pulse" href="./portfolio2.html">Portfolio</a></li>
                 <li> | </li>
-                <li><a class="links" href="./index.html"> About</a></li>
+                <li><a class="hyper hvr-pulse" href="./index2.html"> About</a></li>
             </ul>
         </div>
+
 
     </header>
 
 
-</body>
-<br>
-<section>
-    <div class="boxed">
-        <h2 class="headfont">Contact</h2>
-        <hr>
-        <br>
-        <form class="left">
-            Name<br>
-            <input type="text" name="firstname" size="119"><br>
-            <br>
-            Email<br>
-            <input type="text" name="email" size="119"><br>
-            <br>
-            Message<br>
-            <textarea rows="10" cols="108" type="text" name="message">
-            </textarea>
-            <br>
-            <br>
-            <input id="button" type="submit">
 
-        </form>
+    <div class="wrapper">
+
+        <section class="center">
+            <div class="mainbox">
+
+                <div class="boxes">
+
+                    <div class="boxed">
+                        <h2 class="headfont">Contact</h2>
+                        <hr>
+                        <br>
+
+                        <form class="left">
+                            Name<br>
+                            <input type="text" name="firstname"><br>
+                            <br>
+                            Email<br>
+                            <input type="text" name="email"><br>
+                            <br>
+                            Message<br>
+                            <textarea rows="10" cols="108" name="message">
+                                    </textarea>
+                            <br>
+                            <br>
+                            <div class="hvr-pulse">
+                                <input id="button" type="submit">
+                            </div>
+
+
+                        </form>
+                        <br>
+                    </div>
+
+                </div>
+            </div>
+        </section>
         <br>
+
+
+        <div class="push"></div>
     </div>
+    <footer class="footer">
+        <div id="foottop"></div>Copyright&copy;
+    </footer>
 
-</section>
-<div class="push"></div>
-<footer class="footer">
-    <div id="foottop"></div>
-    <p id="copyright">Copyright 2019&copy;</p>
-</footer>
+
+</body>
 
 </html>
