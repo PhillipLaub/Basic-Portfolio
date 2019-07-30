@@ -1,17 +1,160 @@
-h1 {
-    color:#ffffff;
-    float:left;
-    margin: 0;
-    
+* {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 h2 {
     color: #4aaaa5;
+    
 }
 
-.left {
+.headfont {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size:30px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+body {
+    width:100%;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png");
+}
+section {
+    width:960px;
+    border: 1px gray;
+
+}
+
+
+.mainbox {
+    width:960px;
+    background: #ffffff;
+    padding:20px;
+    border: 1px solid #dddddd;
+    
+
+}
+
+
+
+.boxy {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+  }
+  .footer,
+  .push {
+    height: 50px;
+  }
+
+  footer {
+    width:100%;
+    text-align: center;
+    background: #666666;
+    color:white;
+    border-top: 8 px solid green;
+}
+
+#foottop {
+    width:100%;
+    height:7px;
+    background: #4aaaa5;
+}
+
+hr {
+    color: grey;
+}
+
+.links {
+    color:#777777;
+    text-decoration:none;
+    
+}
+
+
+.navigation li
+{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding-left: 10px;
+    padding-right:10px;
+    font-size:18px;
+    opacity: 0.70;
+    text-decoration:none;
+    color:#777777;
+    
+} 
+
+.center {
+    margin: auto;
+    padding: 10px;
+  }
+  
+
+header {
+    width: 100%;
+    background: white;
+    height:80px;
+    margin-bottom:10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.insideheader {
+    width: 960px;
+    margin: auto;
+    height: 40px;
+
+}
+
+h1 {
     float: left;
-    color: #777777;
+    padding-left:20px;
+    padding-right:20px;
+    background: #4aaaa5;
+    line-height: 250%;
+    color: white;
+    padding-top:0;
+    margin-top:0;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 80px;
+}
+
+.links {
+    float: right;
+}
+
+.hyper {
+    text-decoration:none;
+    color:#777777;
+}
+
+.layer {
+    background:#4aaaa5;
+    width:100%;
+    top: 65%;
+    line-height:260%;
+    z-index:2;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+}
+
+.image {
+    width:100%;
+    height:100%;
 }
 
 #button {
@@ -25,247 +168,51 @@ h2 {
         font-size: 16px;
 
 }
-    
 
-
-#navigation li
-{
-    list-style-type: none;
-    display: inline;
-    margin: 0;
-    padding: 0;
-    font-size:18px;
-    float: right;
-    opacity: 0.70;
-    
-}
-
-
-ul {
-    padding-right: 25%;
-    line-height: 350%;
+.left {
     color: #777777;
+    line-height:130%;
 }
 
-
-.links {
-    color:#777777;
-    text-decoration:none;
-    float: right;
-    padding-right:10px;
-    padding-left:10px;
-}
-
-body {
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/pipes.png");
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+input {
     width:100%;
-    margin: 0;
-    min-height:100%; 
-    position:relative; 
-    
+}
+
+textarea {
+    width:100%;
 }
 
 #paragraph {
     font-size: 18px;
     color: #777777;
-    float: right;
-    line-height: 150%;
     padding-right:30px;
     padding-left: 30px;
+    line-height:180%;
 
-}
-
-hr {
-    height: 2px;
-    background-color:#cccccc;
-    opacity: 0.50;
-}
-
-section {
-    
-    padding-top: 20px;
-    margin-left: 150px;
-    width: 100%;
-
-}
-
-.headfont {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size:30px;
-    
-
-}
-
-#myname {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: #4aaaa5;
-    float: center;
-    padding-left:20px;
-    padding-right:20px;
-
-}
-
-.header {
-    background-color: #ffffff;
-    border:2px solid #cccccc;
-    padding-left:150px;
-    width: 100%;
-    height: 90px;
-    line-height: 90px;
-    float: top;
-
-}
-
-.boxed {
-    border: 1px solid #cccccc;
-    background-color: #ffffff;
-    width:800px;
-    height: 500px;
-    padding-left:30px;
-    padding-right:30px;
-    position: relative;
-}
-
-.boxed2 {
-    border: 1px solid #cccccc;
-    background-color: #ffffff;
-    width:800px;
-    height: 750px;
-    padding-left:30px;
-    padding-right:30px;
-    position: relative;
 }
 
 #headshot {
     float: left;
     padding-right: 30px;
-    padding-left: 30px;
 }
 
+a:hover {
+    color:#4aaaa5;}
+a:focus {
+    color:pink;}
+a:active {
+    color:black;}
 
-.box1 {
-    width:200px;
-    height:180px;
-    border: 1px solid black;
-    margin:10px;
-    position: absolute;
-    top:100px;
-    left:20px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: #4aaaa5;
-}
-
-.box2 {
-    width:200px;
-    height:180px;
-    border: 1px solid black;
-    margin: 10px;
-    position: absolute;
-    top: 100px;
-    right: 375px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: #4aaaa5;
-
-}
-
-.box3 {
-    width:200px;
-    height:180px;
-    border: 1px solid black;
-    margin: 10px;
-    position: absolute;
-    top: 300px;
-    left: 20px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: #4aaaa5;
-}
-
-.box4 {
-    width:200px;
-    height:180px;
-    border: 1px solid black;
-    margin: 10px;
-    position: absolute;
-    top:300px;
-    right:375px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: #4aaaa5;
-}
-
-.box5 {
-    width:200px;
-    height:180px;
-    border: 1px solid black;
-    margin: 10px;
-    position: absolute;
-    top:500px;
-    left:20px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: #4aaaa5;
-}
-
-.layer {
-    background:#4aaaa5;
-    width:100%;
-    top: 60%;
-    position: relative;
-    line-height:260%;
-    z-index:2;
-    color: white;
-    text-decoration: none;
-    position: absolute;
-    text-align: center;
-}
-
-.image {
-    width:200px;
-    height:180px;
-}
-
-
-html {
-    height: 100%;
-    margin:0;
-    width: 100%;
+#button:hover {
+    opacity: 0.75;
     
 }
 
-footer {
-    height:142px;
-    width:100%;
-    background: #777777;
-    text-align: center;
-    margin-bottom: -142px;
-    color: white;
-    
+.boxy:hover {
+    opacity: 0.75;
 }
 
-.wrapper {
-    min-height: 100%;
-    margin-bottom: -60px;
-  }
-  .footer,
-  .push {
-    height: 60px;
-    
-  }
-
-  #foottop {
-      width:100%;
-      height:7px;
-      background: #4aaaa5;
-  }
-
-  #copyright {
-      bottom: 0;
-      color: white;
-      text-align: center;
-      font-size: 10px;
-
-  }
-
-  /* Pulse */
+/* Pulse */
 @-webkit-keyframes hvr-pulse {
     25% {
       -webkit-transform: scale(1.1);
@@ -292,6 +239,7 @@ footer {
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    
   }
   .hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
     -webkit-animation-name: hvr-pulse;
